@@ -72,4 +72,7 @@ public class Customer {
     public String getBalance() {
         return balance;
     }
+    public String toString(){
+        return this.id +",\t" +this.name +",\t" +this.surname +",\t" +this.patronymic +",\t" +this.address +",\t" +this.cardNumber +",\t" +this.balance +".";
+    }
 }
