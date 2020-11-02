@@ -1,0 +1,19 @@
+12312312,Rudy,Gobert,Bourgarel,somewhere street,0034,23200
+32221321,Vitaliy,Tsal,Bogdanovich,somewhere street,3212,-300
+23132312,Devin,Booker,Armani,somewhere street,2132,1232
+45457613,Kemba,Walker,Hudley,somewhere street,0123,1323
+65535675,Benjamin,Simmons,David,somewhere street,0055,23212
+65763399,Christopher,Paul,Emmanuel,somewhere street,4321,-2000
+76578765,Klay,Thompson,Alexander,somewhere street,3553,-1350
+24453245,Karl,Anthony,Towns,somewhere street,2442,20000
+67673123,Donovan,Mitchell,Vernel,somewhere street,0132,-2200
+53463745,Bradley,Beal,Emmanuel,somewhere street,0009,-200
+45647744,Draymond,Green,Jamal,somewhere street,0124,2400
+24768722,Kyrie,Irving,Andrew,somewhere street,0542,2030
+56745566,Damian,Lilard,Lamonte Ollie,somewhere street,4444,-220
+99764853,Paul,George,Clifton,somewhere street,0005,1337
+23467542,Stephen,Curry,Wardell,somewhere street,1233,-2100
+34353465,James,Harden,Edward,somewhere street,6464,2120
+64575844,Giannis,Antetokounmpo,Sina Ugo,somewhere street,4541,-350
+34554576,LeBron,James,Raymone,somewhere street,0145,1337228
+14235644,Kawhim,Leonard,Anthony,somewhere street,0067,-2100
