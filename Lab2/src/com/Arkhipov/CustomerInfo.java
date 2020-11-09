@@ -1,5 +1,5 @@
 package com.Arkhipov;
-import com.Arkhipov.user.Customer;
+import com.Arkhipov.user.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -31,14 +31,14 @@ class CustomerInfo{
     public static void outEqualsName(ArrayList<Customer> customersArrayList, Scanner scanName){
         System.out.println("Type Name:");
         boolean isName=false;
-        if(isName=CustomerService.isEqualsName(customersArrayList,scanName.nextLine())!=true){
+        if(isName= CustomerService.isEqualsName(customersArrayList,scanName.nextLine())!=true){
             System.out.println("Customers with this name not found");
         }
     }
     public static void outInterval(ArrayList<Customer> customersArrayList,Scanner scanInterval){
         System.out.println("\nType start and end of interval card number :");
         boolean isInterval=false;
-        if(isInterval=CustomerService.isCardNumberInterval(customersArrayList,scanInterval.nextInt(),scanInterval.nextInt())!=true){
+        if(isInterval= CustomerService.isCardNumberInterval(customersArrayList,scanInterval.nextInt(),scanInterval.nextInt())!=true){
             System.out.println("Customers with this card number interval not found");
         }
     }

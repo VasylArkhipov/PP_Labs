@@ -1,32 +1,10 @@
-package com.Arkhipov;
+package com.Arkhipov.user;
 
-import com.Arkhipov.user.Customer;
-
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 
 public class CustomerService {
-
-    public static void main(String[] args) {
-        StartCustomerDemo();
-    }
-
-    public static void StartCustomerDemo(){
-        Scanner scanner= new Scanner(System.in);
-        ArrayList<Customer> customersArrayList = new ArrayList<Customer>();
-        CustomerInfo.getFileCustomers(customersArrayList); //Створення об.
-        CustomerInfo.outEqualsName(customersArrayList,scanner);//вивід списка покупців з заданим імененм
-        CustomerInfo.outInterval(customersArrayList,scanner);//вивід списка покупців з інтервалом номера картки
-        debtorCustomer(customersArrayList);// вивід боржників
-        scanner.close();
-    }
-
     //перевірка на іменна
-    public static boolean isEqualsName(ArrayList<Customer> customerArrayList,String name){
+    public static boolean isEqualsName(ArrayList<Customer> customerArrayList, String name){
         boolean isName = false;
         for(Customer currentCustomer: customerArrayList){
             if(currentCustomer.getName().equals(name)){
@@ -57,4 +35,3 @@ public class CustomerService {
         }
     }
 }
-
